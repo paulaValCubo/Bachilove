@@ -1,0 +1,129 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Preguntas frecuentes</title>
+
+        <link rel="stylesheet" href="Home.css">
+    </head>
+    <body>
+        <header>
+	<div class="header">
+		
+		<nav>
+		<div class="navdiv">
+		<div class="logo">
+			<img class="logoIMG" src="logo_fondo.png">
+		</div>
+		<ul>
+			<li><a href="Home.html">Home</a></li>
+      	 	<li><a href="Personajes.html">Personajes</a></li>
+          	<li><a href ="QyA.html">Q & A</a></li>
+      	    <li><a href ="Mecánicas.html">Mecánicas</a></li>
+           	<li><a href ="Redes.html">Redes Sociales</a></li>
+            <li><a href="Sobre Nosotros.html">Sobre Nosotros</a></li>
+        	<li><a href ="Donar.html">Donar</a></li>
+		</ul>
+		<img class="logo_Cherry" src="logo_Cherry.png">
+		</div>
+ 		</nav>
+		
+	</div>
+	</header>
+        <h1>Preguntas frecuentes</h1>
+        <main>
+			<div class="parrafo">
+			<button id="btn-info1">¿Qué es Bachilove?</button>
+
+    		<div id="panel-info1" class="panel-info1">
+        	<p>Bachilove es una novela visual romántica, en el que tomas el papel de un estudiante de 2º de bachillerato. 
+			¡Deberás conseguir superar la PAU mientras encuentras el amor en clase!</p>
+    		</div>
+
+			<br>
+			<button id="btn-info2">¿Qué es el Bachillerato?</button>
+
+    		<div id="panel-info2" class="panel-info2">
+        	<p>En España, después de la enseñanza obligatoria (la ESO, alrededor de los 16 años) 
+				puedes hacer una educación postobligatoria que procederá a la universidad, conocida como Bachillerato, 
+				de duración de dos años. </p>
+    		</div>
+
+			<br>
+			<button id="btn-info3">¿Qué es la PAU?</button>
+
+    		<div id="panel-info3" class="panel-info3">
+        	<p>La PAU (Prueba de Acceso a la Universidad) es el examen oficial que se realiza después de acabar Bachillerato
+				 para los estudiantes en España que quieran acceder a estudios universitarios de grado. </p>
+    		</div>
+
+			<br>
+			<button id="btn-info4">¿Dónde puedo descargar Bachilove?</button>
+
+    		<div id="panel-info4" class="panel-info4">
+        	<p>Bachilove se encuentra disponible tanto en Steam como <a href="https://itch.io/">Itch.io</a> 
+				por el precio base de 15€. </p>
+			</div>
+
+			<br>
+			<button id="btn-info5">¿Puedo hacer fanart de los personajes del juego?</button>
+
+    		<div id="panel-info5" class="panel-info5">
+        	<p>¡Por supuesto! Mientras no tenga ninguna temática propia +18, incentivamos a que compartáis vuestro arte y 
+				nos mencionéis en redes.
+ 			</p>
+    		</div>
+
+			<br>
+			<button id="btn-info6">¿Bachilove cuenta con escenas +18?</button>
+
+    		<div id="panel-info6" class="panel-info6">
+        	<p>No, Bachilove está inspirado en la secundaria y todos nuestros personajes son adolescentes, 
+				por lo que cualquier sugerencia sexual está completamente fuera de nuestras opciones, ahora y siempre. </p>
+    		</div>
+
+			<br>
+			<button id="btn-info7">¿Qué controles necesita Bachilove?</button>
+
+    		<div id="panel-info7" class="panel-info7">
+        	<p>Bachilove es principalmente un juego de Point & Click, pero también necesitarás del teclado para algunos minijuegos.</p>
+    		</div>
+
+			<script src="QyA.js"></script>
+			</div>
+
+        <article>
+				<header class="h">Ingrese los datos del correo</header>
+
+    				<form id="correoForm">
+        			<label>Nombre:</label><br>
+        			<input type="text" id="nombre" required><br><br>
+
+        			<label>Asunto:</label><br>
+        			<input type="text" id="asunto" required><br><br>
+
+       				<label>Mensaje:</label><br>
+        			<textarea id="texto" required></textarea><br><br>
+
+        			<button class="buttonC" type="submit">Guardar datos</button>
+    				</form>
+
+    				<hr>
+			</article>
+
+			<article>
+    				<header class="h">Datos del correo guardados:</header>
+    					<p><strong>Remitente:</strong> <span id="out-nombre"></span></p>
+    					<p><strong>Asunto:</strong> <span id="out-asunto"></span></p>
+    					<p><strong>Mensaje:</strong> <span id="out-texto"></span></p>
+					<footer>¡Gracias por tu aportación!</footer>
+					<script src="Correos.js"></script>
+			</article>
+
+        </main>
+		<footer>
+        <div class="Studio" >
+        <p>Cherry Studio</p>
+        </div>
+    </footer>
+    </body>
+</html>

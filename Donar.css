@@ -1,0 +1,200 @@
+@font-face {
+  font-family: Bachilove-Regular;
+  src: url(Bachilove-Regular.ttf);
+}		
+
+
+		body {
+            		background-color: rgb(255, 173, 201);
+			position: relative;
+			font-family: Bachilove-Regular;
+			font-weight:bold;	
+			cursor: url(cursor_bachilove.png), auto;		
+		
+		}
+			
+		a {
+			 text-decoration: none;
+		}
+		a:hover{
+			cursor: url(cursor_hover.png), auto;
+		}
+	
+		.header{
+			display: inline-block;
+			width:100%;
+			min-height: 150px;
+			background-color: rgb(255, 196, 216);
+			background-image: url('banner.png');
+			background-size: 500px;
+			margin-top:0px;
+		}
+		main{
+			text-align: center;
+			font-size: 40px;
+			font-weight: bold;
+		}
+		.logo{
+			width: 300px;
+			height: 150px;
+			border-radius: 80px;
+		}
+
+		.logoIMG{
+			width: 300px;
+			height: 150px;
+			object-fit: contain;
+		}
+	
+		.navdiv{
+			display: flex;
+			align-items: center;
+			width: 100%;
+
+		}
+		li{
+			list-style: none; 
+	 		display: inline-block;
+			height: 40px;
+			margin-right:30px;
+			background-color:white;
+			border-style: solid;
+			border-color: white;
+			border-width: 10px;
+			border-radius: 50px;
+			cursor: pointer;
+			text-align: center;
+		}
+		li a{
+			font-size: 40px;
+			color: rgb(227, 104, 146);
+		}
+		.container{
+			margin: 80px auto;
+			height: 900px;
+			max-width: 2200;
+			background-color:rgb(255, 201, 224);
+			border-radius: 50px;
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr;
+			padding-right:10px;
+		}
+		.element{
+			color: white;
+			text-align: center;
+			font-size:1.5rem;
+			font-weight: bold;
+
+		}
+		.element p{
+			color: rgb(56, 35, 37);
+			position:relative;
+			font-size: 30px;
+			top: 275px;
+			left: 5px;
+		}
+		.element-1{
+			background-image: url('fondo1.png');
+			background-repeat: no-repeat;
+			background-size:430px;
+			background-position: center;
+	
+		}
+
+		.element-1 p{
+			color:rgb(194, 121, 12);			
+		}
+
+		.element-2{
+			background-image: url('fondo2.png');
+			background-repeat: no-repeat;
+			background-size: 440px;
+			background-position: center;
+			color: rgb(161, 11, 116);
+		}	
+
+		.element-2 p{
+			color:rgb(161, 11, 116);
+
+		}	
+
+		.element-3{
+			background-image: url('fondo3.png');
+			background-repeat: no-repeat;
+			background-size: 450px;
+			background-position: center;
+			
+		}
+
+		.element-3 p{
+			color:rgb(73, 6, 150);
+			padding-left: 100px;
+			padding-right: 100px;
+		}
+
+		.element-4{
+			background-image: url('fondo4.png');
+			background-repeat: no-repeat;
+			background-size: 470px;
+			background-position: center;
+		}
+			
+		.element-4 p{
+			color:rgb(65, 91, 209);
+			padding-left: 100px;
+			padding-right: 100px;
+		}
+		p{
+			color: rgb(153, 34, 75);
+			font-size: 40px;
+			font-weight:bold;
+		}
+		h1{
+			color: rgb(153, 34, 75);
+			text-align: center;
+			padding: 50px;
+			font-size: 80px;
+			font-style: italic;
+			font-weight:bold;
+		}
+		.progress{
+			width: 500px;
+			height: 50px;
+			border: 3px solid rgb(255, 150, 210); 
+			border-radius: 10px;
+			margin: auto;
+			overflow: hidden;
+		}
+
+		.bar{
+			background: rgb(255, 150, 210) ;
+			height: 100%;
+		}
+		.progressValue{
+			width: 0px;
+			height: 100%;
+			background: linear-gradient( to right, rgb(255, 255, 255), rgb(255, 126, 171), rgb(245, 25, 102));
+			box-shadow: 0 0 3px white;
+			transition: width 1s;
+		}
+			.logo_Cherry{
+			height: 150px;
+			width: 150px;
+			align-content: right;
+			box-shadow: none;
+		}
+		
+		.Studio{
+			align-content: right;
+			height: 120px;
+			width:100%;
+			background-image: url('logo_Cherry.png');
+			background-size: 200px;
+			background-repeat: no-repeat;
+			
+		}
+		.Studio p{
+			text-align: left;
+			padding-left: 160px;
+			padding-top: 50px;
+		}
